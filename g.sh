@@ -44,6 +44,9 @@ touch $folder3/$file3_3
 
 
 
+echo "modifying $file1_1 and $file1_2 in folder1"
+echo "modified content"> $folder1/$file1_1
+echo "modified content"> $folder1/$file1_2
 
 
 
