@@ -56,6 +56,17 @@ echo "modified content"> $folder3/$file3_3
 
 
 
+echo "modifying $file1_1 and $file1_2 in folder1"
+echo "modified content"> $folder1/$file1_1
+echo "modified content"> $folder1/$file1_2
+
+echo "modifying $file2_1 and $file2_2 in folder2"
+echo "modified content"> $folder2/$file2_1
+echo "modified content"> $folder2/$file2_2
+
+echo "modifying $file3_1 and $file3_2 in folder3"
+echo "modified content"> $folder3/$file3_1
+echo "modified content"> $folder3/$file3_2
 
 
 
