@@ -1,4 +1,4 @@
-#!/bin/bash
+i#!/bin/bash
 echo "create a 1st folder1:"
 read folder1
 echo "create a 2nd folder2:"
@@ -41,6 +41,18 @@ mkdir $folder3
 touch $folder3/$file3_1
 touch $folder3/$file3_2
 touch $folder3/$file3_3
+
+echo "modified content"> $folder1/$file1_1
+echo "modified content"> $folder1/$file1_2
+echo "modified content"> $folder1/$file1_3
+echo "modified content"> $folder2/$file2_1
+echo "modified content"> $folder2/$file2_2
+echo "modified content"> $folder2/$file2_3
+echo "modified content"> $folder3/$file3_1
+echo "modified content"> $folder3/$file3_2
+echo "modified content"> $folder3/$file3_3
+
+
 
 
 
