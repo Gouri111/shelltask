@@ -1,7 +1,7 @@
 #!/bin/bash
 read -p "enter the username:" username
 read -p "enter the password:" password
-if [ $username="admin" ] && [ $password="abcd123" ]
+if [ "$username"=="admin" ] && [ "$password"=="abcd123" ];
 then
 	echo "Authentication is successful"
 else
@@ -9,7 +9,7 @@ else
 fi
 
 read -p "enter a character:" Char
-if [ $char=a -o $char=e -o $char=i -o $char=o -o $char=u ]
+if [ $char="a" ] || [ $char="e" ] || [ $char="i" ] || [ $char="o" ] || [ $char="u" ]
 then
 	echo "its a lower case vowel"
 else
